@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    background-image: url("bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up{
+
+    color: black;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    margin: 0 auto;
+    font-size: 16px;
+    top: 35%;
+    left: 35%;
+    right: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background:transparent;
+    text-align: left;
+    
+    vertical-align: middle;
+}
+input{
+    height: 30px;
+    background-color: white;
+    width: 98%;
+    padding-left: 10px;
+}
+input:focus{
+    background-color: teal;
+    color: white;
+    outline: none;
+    opacity: 0.35;
+    font-size: 16px;
+}
+button{
+    margin-top: 10px;
+    width:120px;
+    height: 30px;
+    padding: 5px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color:green;
+    color: white;
+}
+button:hover{
+    cursor:pointer;
+
+}

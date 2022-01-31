@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+body {
+    margin: 0;
+}
+header{
+    font-weight: bolder;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    vertical-align:middle;
+    top: 75%;
+    left: 43%;
+    align-items: center;
+    position: fixed;  
+}
+.container {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+    vertical-align:middle;
+    top: 25%;
+    left: 40%;
+    align-items: center;
+    position: absolute;
+}
+.container_bar_2 {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+    vertical-align:middle;
+    top: 25%;
+    left: 45%;
+  
+    align-items: center;
+ 
+
+    position: absolute;
+}
+.container_bar_3 {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+    vertical-align:middle;
+    top: 25%;
+    left: 50%;
+  
+    align-items: center;
+ 
+
+    position: absolute;
+}
+
+.s {
+    width:60px;  
+    color: white;  
+     font-size: 2rem;
+}
+
+.s1 {
+    background:white;
+    border: 1px solid lightgray;
+    flex: 2;
+}
+
+.s2 {
+    background: lightgray;
+      animation-name: ani_bar_1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.s2_bar_2 {
+    background: lightgray;
+      animation-name: ani_bar_2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.s2_bar_3 {
+    background: lightgray;
+      animation-name: ani_bar_3;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ani_bar_1{
+
+    
+    from {
+        height: 0;
+    }
+      to{
+        height: 30%;
+    } 
+}
+    @keyframes ani_bar_2{
+
+    
+        from {
+            height: 0;
+        }
+          to{
+            height: 40%;
+
+        }
+        } 
+
+        @keyframes ani_bar_3{
+
+    
+            from {
+                height: 0;
+            }
+              to{
+                height: 80%;
+    
+            }
+            } 
+    
